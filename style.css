@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  header {
+    background-color: #1e3d58;
+    color: white;
+    padding: 20px 0;
+  }
+  header .logo h1 {
+    text-align: center;
+    margin: 0;
+    font-size: 2.5rem;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    text-align:right;
+    margin-top: 20px;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    position: relative;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 15px 30px;
+    display: block;
+  }
+  
+  nav ul li a:hover {
+    background-color: #395c79;
+  }
+  
+  /* Dropdown Styles */
+  nav ul li.dropdown:hover > .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #6e3979;
+    top: 100%;
+    left: 0;
+    width: 200px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .dropdown-content a {
+    padding: 10px 15px;
+    color: white;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #1e3d58;
+  }
+  
+  /* Main Section */
+  main {
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .intro h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  .intro p {
+    font-size: 1.5rem;
+    margin-bottom: 40px;
+  }
+  
+  .services h3 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .service-boxes {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .service {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    text-align: center;
+  }
+  
+  .service h4 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+  }
+  
+  .service p {
+    font-size: 1rem;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    background-color: #1e3d58;
+    color: white;
+    padding: 10px 0;
+    margin-top: 30px;
+  }
+  
